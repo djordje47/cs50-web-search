@@ -61,7 +61,7 @@ body {
   outline: 0;
   border: 0;
   box-shadow: 0px 2px 8px 0px rgba(60, 64, 67, 0.25);
-  width: 60%;
+  width: 60vw;
 }
 
 .submit-btn {
@@ -79,4 +79,10 @@ body {
   background-color: #f8f9fa;
   border: 1px solid #dadce0;
   color: #202124;
+}
+
+@media only screen and (min-width: 2000px) {
+  .col.search-form .search-input {
+    width: 25vw;
+  }
 }
